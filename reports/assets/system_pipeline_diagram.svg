@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Hinglish Lecture Processing Pipeline</title>
+  <desc id="desc">Two-column academic pipeline diagram showing denoising, frame-level language identification, constrained CTC decoding with N-gram bias, IPA mapping, Gujarati translation, zero-shot voice cloning with prosody warping, and anti-spoof plus FGSM evaluation.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowSoft" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .subtitle { font: 500 16px Arial, Helvetica, sans-serif; fill: #475569; }
+      .section { font: 700 20px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .boxTitle { font: 700 18px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .boxText { font: 500 15px Arial, Helvetica, sans-serif; fill: #334155; }
+      .pill { font: 700 15px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .legend { font: 500 14px Arial, Helvetica, sans-serif; fill: #475569; }
+      .panelStroke { stroke: #cbd5e1; stroke-width: 2; }
+      .mainArrow { stroke: #334155; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .softArrow { stroke: #64748b; stroke-width: 3; fill: none; stroke-dasharray: 10 8; marker-end: url(#arrowSoft); }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .shadow { fill: #e2e8f0; opacity: 0.35; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1050" fill="#ffffff"/>
+
+  <text x="50" y="56" class="title">End-to-End Hinglish Lecture Pipeline for STT, Translation, Voice Cloning, and Robustness Evaluation</text>
+  <text x="50" y="86" class="subtitle">Designed as a two-column overview figure for an IEEE/CVPR-style report. Solid arrows indicate the main data flow; dashed arrows show auxiliary conditioning and evaluation branches.</text>
+
+  <rect x="40" y="120" width="1520" height="180" rx="20" fill="#f4f8ff" class="panelStroke"/>
+  <rect x="40" y="330" width="1520" height="140" rx="20" fill="#faf5ff" class="panelStroke"/>
+  <rect x="40" y="500" width="1520" height="220" rx="20" fill="#f5fbf5" class="panelStroke"/>
+  <rect x="40" y="750" width="1520" height="190" rx="20" fill="#fff7f0" class="panelStroke"/>
+
+  <rect x="58" y="138" width="158" height="34" rx="17" fill="#2563eb"/>
+  <text x="80" y="161" class="pill">Part I  Robust STT</text>
+
+  <rect x="58" y="348" width="192" height="34" rx="17" fill="#7c3aed"/>
+  <text x="80" y="371" class="pill">Part II  IPA + Translation</text>
+
+  <rect x="58" y="518" width="210" height="34" rx="17" fill="#15803d"/>
+  <text x="80" y="541" class="pill">Part III  Voice Cloning + Prosody</text>
+
+  <rect x="58" y="768" width="232" height="34" rx="17" fill="#c2410c"/>
+  <text x="80" y="791" class="pill">Part IV  Security + Robustness</text>
+
+  <text x="250" y="160" class="section">Speech preprocessing, code-switched transcription, linguistic conversion, synthesis, and evaluation</text>
+
+  <g>
+    <rect x="84" y="176" width="240" height="80" rx="18" class="shadow"/>
+    <rect x="80" y="170" width="240" height="80" rx="18" class="box"/>
+    <text x="108" y="202" class="boxTitle">Input audio</text>
+    <text x="108" y="226" class="boxText">10 min lecture segment</text>
+    <text x="108" y="246" class="boxText">Hinglish classroom speech</text>
+  </g>
+
+  <g>
+    <rect x="364" y="176" width="240" height="80" rx="18" class="shadow"/>
+    <rect x="360" y="170" width="240" height="80" rx="18" class="box"/>
+    <text x="389" y="202" class="boxTitle">Denoising</text>
+    <text x="389" y="226" class="boxText">Spectral subtraction /</text>
+    <text x="389" y="246" class="boxText">classroom noise normalization</text>
+  </g>
+
+  <g>
+    <rect x="644" y="176" width="240" height="80" rx="18" class="shadow"/>
+    <rect x="640" y="170" width="240" height="80" rx="18" class="box"/>
+    <text x="669" y="202" class="boxTitle">Frame LID</text>
+    <text x="669" y="226" class="boxText">Hindi / English tags</text>
+    <text x="669" y="246" class="boxText">plus switch-boundary head</text>
+  </g>
+
+  <g>
+    <rect x="924" y="176" width="240" height="80" rx="18" class="shadow"/>
+    <rect x="920" y="170" width="240" height="80" rx="18" class="box"/>
+    <text x="946" y="202" class="boxTitle">Constrained CTC decoding</text>
+    <text x="946" y="226" class="boxText">wav2vec2 + beam search</text>
+    <text x="946" y="246" class="boxText">with N-gram logit bias</text>
+  </g>
+
+  <g>
+    <rect x="1204" y="176" width="240" height="80" rx="18" class="shadow"/>
+    <rect x="1200" y="170" width="240" height="80" rx="18" class="box"/>
+    <text x="1277" y="202" class="boxTitle">Transcript</text>
+    <text x="1235" y="226" class="boxText">technical term-preserving</text>
+    <text x="1235" y="246" class="boxText">code-switched text output</text>
+  </g>
+
+  <path d="M 320 210 L 360 210" class="mainArrow"/>
+  <path d="M 600 210 L 640 210" class="mainArrow"/>
+  <path d="M 880 210 L 920 210" class="mainArrow"/>
+  <path d="M 1160 210 L 1200 210" class="mainArrow"/>
+
+  <g>
+    <rect x="426" y="366" width="300" height="70" rx="18" class="shadow"/>
+    <rect x="420" y="360" width="300" height="70" rx="18" class="box"/>
+    <text x="451" y="391" class="boxTitle">Unified IPA mapping</text>
+    <text x="451" y="414" class="boxText">manual Hinglish phonology layer</text>
+  </g>
+
+  <g>
+    <rect x="866" y="366" width="320" height="70" rx="18" class="shadow"/>
+    <rect x="860" y="360" width="320" height="70" rx="18" class="box"/>
+    <text x="891" y="391" class="boxTitle">Gujarati translation</text>
+    <text x="891" y="414" class="boxText">parallel glossary + technical term mapping</text>
+  </g>
+
+  <path d="M 1320 250 L 1320 330 L 570 330 L 570 360" class="mainArrow"/>
+  <path d="M 720 395 L 860 395" class="mainArrow"/>
+
+  <g>
+    <rect x="116" y="556" width="260" height="70" rx="18" class="shadow"/>
+    <rect x="110" y="550" width="260" height="70" rx="18" class="box"/>
+    <text x="138" y="581" class="boxTitle">Student voice reference</text>
+    <text x="138" y="604" class="boxText">60 s enrollment recording</text>
+  </g>
+
+  <g>
+    <rect x="456" y="556" width="300" height="70" rx="18" class="shadow"/>
+    <rect x="450" y="550" width="300" height="70" rx="18" class="box"/>
+    <text x="479" y="581" class="boxTitle">Speaker embedding + TTS</text>
+    <text x="479" y="604" class="boxText">x-vector conditioning with Gujarati synthesis</text>
+  </g>
+
+  <g>
+    <rect x="796" y="556" width="300" height="70" rx="18" class="shadow"/>
+    <rect x="790" y="550" width="300" height="70" rx="18" class="box"/>
+    <text x="846" y="581" class="boxTitle">DTW prosody warp</text>
+    <text x="816" y="604" class="boxText">align F0 and energy contours</text>
+  </g>
+
+  <g>
+    <rect x="1136" y="556" width="330" height="70" rx="18" class="shadow"/>
+    <rect x="1130" y="550" width="330" height="70" rx="18" class="box"/>
+    <text x="1182" y="581" class="boxTitle">Final audio</text>
+    <text x="1161" y="604" class="boxText">22.05 kHz Gujarati cloned lecture</text>
+  </g>
+
+  <g>
+    <rect x="796" y="646" width="300" height="62" rx="18" class="shadow"/>
+    <rect x="790" y="640" width="300" height="62" rx="18" class="box"/>
+    <text x="813" y="668" class="boxTitle">Original lecture prosody</text>
+    <text x="813" y="690" class="boxText">reference F0 and energy envelopes</text>
+  </g>
+
+  <path d="M 1020 430 L 1020 550" class="mainArrow"/>
+  <path d="M 370 585 L 450 585" class="mainArrow"/>
+  <path d="M 760 585 L 790 585" class="mainArrow"/>
+  <path d="M 1090 585 L 1130 585" class="mainArrow"/>
+  <path d="M 940 640 L 940 620" class="softArrow"/>
+
+  <g>
+    <rect x="514" y="816" width="580" height="84" rx="20" class="shadow"/>
+    <rect x="508" y="810" width="580" height="84" rx="20" class="box"/>
+    <text x="554" y="842" class="boxTitle">Anti-spoof + FGSM evaluation</text>
+    <text x="554" y="867" class="boxText">LFCC/CNN countermeasure, ROC/EER, and adversarial epsilon-SNR sweep on LID</text>
+  </g>
+
+  <path d="M 1295 620 L 1295 730 L 798 730 L 798 810" class="mainArrow"/>
+  <path d="M 760 250 L 760 700 L 508 700 L 508 810" class="softArrow"/>
+
+  <text x="80" y="908" class="legend">Suggested caption: Overview of the proposed code-switched lecture processing pipeline. The system denoises Hinglish lecture audio, performs frame-level Hindi-English language identification, applies constrained wav2vec2 CTC decoding with N-gram biasing, maps the transcript to a unified IPA representation, translates the content into Gujarati, synthesizes speech using a student speaker embedding, transfers the instructor's prosody via DTW contour warping, and finally evaluates the output with anti-spoofing and adversarial robustness modules.</text>
+</svg>

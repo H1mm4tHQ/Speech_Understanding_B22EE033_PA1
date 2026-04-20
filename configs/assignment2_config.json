@@ -1,0 +1,100 @@
+{
+  "paths": {
+    "original_audio": "final_original_hinglish_input.wav",
+    "student_voice_audio": "User_LR_audio.wav",
+    "task2_corpus": "mapping/task2_unified_hinglish_ipa_gujarati_corpus.tsv",
+    "syllabus_text": "data/syllabus_text.txt",
+    "lid_manifest": "data/manifests/lid_segments_template.csv",
+    "spoof_manifest": "data/manifests/spoof_manifest_template.csv",
+    "spoof_eval_manifest": "data/manifests/spoof_segment_eval.csv",
+    "outputs_dir": "outputs",
+    "lid_checkpoint": "models/lid_frame_model.pt",
+    "speaker_checkpoint": "models/xvector_encoder.pt",
+    "stt_model_name": "collabora/whisper-base-hindi",
+    "tts_model_name": "facebook/mms-tts-guj",
+    "translation_output": "outputs/translation_gujarati.txt",
+    "transcript_output": "outputs/transcript_constrained.txt",
+    "report_metrics_output": "outputs/report_metrics.json",
+    "transcript_eval_segments": "data/manifests/transcript_eval_segments.csv"
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "n_mels": 80,
+    "frame_ms": 25,
+    "hop_ms": 10,
+    "noise_estimate_sec": 0.75
+  },
+  "lid": {
+    "input_dim": 80,
+    "conv_dim": 128,
+    "hidden_dim": 256,
+    "num_languages": 2,
+    "batch_size": 8,
+    "epochs": 20,
+    "learning_rate": 0.0003,
+    "switch_loss_weight": 0.6,
+    "switch_boundary_radius_frames": 6,
+    "language_smoothing_frames": 7,
+    "english_enter_threshold": 0.44,
+    "english_exit_threshold": 0.38,
+    "minimum_english_frames": 3,
+    "switch_probability_threshold": 0.55,
+    "switch_min_separation_frames": 6,
+    "chunk_seconds": 5.0
+  },
+  "decoding": {
+    "backend": "auto",
+    "language": "hi",
+    "task": "transcribe",
+    "ngram_order": 3,
+    "beam_size": 8,
+    "lm_weight": 0.8,
+    "length_penalty": 0.15,
+    "term_bonus": 1.5,
+    "initial_token_bias": 0.25,
+    "max_new_tokens": 256,
+    "chunk_seconds": 30.0,
+    "chunk_overlap_seconds": 0.0
+  },
+  "speaker": {
+    "embedding_dim": 256,
+    "mfcc_dim": 40
+  },
+  "tts": {
+    "sample_rate": 22050,
+    "speaking_rate": 1.0,
+    "speaker_id": 0
+  },
+  "spoof": {
+    "batch_size": 8,
+    "epochs": 15,
+    "learning_rate": 0.0003,
+    "n_lfcc": 40
+  },
+  "adversarial": {
+    "epsilon_grid": [
+      0.0005,
+      0.001,
+      0.002,
+      0.004,
+      0.008
+    ],
+    "snr_threshold_db": 40.0,
+    "target_label": 1,
+    "source_label": 0,
+    "segment_seconds": 5.0,
+    "stride_seconds": 2.5,
+    "max_candidate_segments": 8,
+    "attack_steps": 10,
+    "success_ratio_threshold": 0.5
+  },
+  "reporting": {
+    "mcd_prefix_seconds": 30.0,
+    "spoof_chunk_seconds": 2.0,
+    "spoof_group_chunks": 2,
+    "spoof_max_chunks_per_label": 28
+  }
+}

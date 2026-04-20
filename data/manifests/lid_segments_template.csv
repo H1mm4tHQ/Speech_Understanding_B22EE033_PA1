@@ -1,0 +1,5 @@
+audio_path,start_sec,end_sec,lang
+final_original_hinglish_input.wav,0.00,2.30,hindi
+final_original_hinglish_input.wav,2.30,3.00,english
+final_original_hinglish_input.wav,3.00,8.25,hindi
+

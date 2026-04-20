@@ -1,0 +1,4 @@
+role,current_path,submission_name,note
+source_lecture,final_original_hinglish_input.wav,original_segment.wav,10 minute Hinglish lecture segment
+student_reference,User_LR_audio.wav,student_voice_ref.wav,60 second Gujarati reference
+final_output,outputs/task3/output_LRL_cloned.wav,output_LRL_cloned.wav,Generated after Task 3 synthesis step

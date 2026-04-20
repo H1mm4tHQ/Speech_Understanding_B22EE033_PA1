@@ -1,0 +1,3 @@
+audio_path,label
+User_LR_audio.wav,bona_fide
+outputs/output_LRL_cloned.wav,spoof

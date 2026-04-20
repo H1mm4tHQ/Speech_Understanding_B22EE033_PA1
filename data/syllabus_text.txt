@@ -1,0 +1,5 @@
+speech understanding signal processing cepstrum mel cepstrum stochastic process language identification
+frame level classification code switching english hindi grapheme phoneme waveform spectrum filter bank
+dynamic time warping prosody pitch energy formant voicing voiced unvoiced beam search constrained decoding
+speaker embedding x vector d vector spoof detection equal error rate adversarial robustness fast gradient sign method
+automatic speech recognition transcription translation synthesis voice cloning classroom lecture speech course
