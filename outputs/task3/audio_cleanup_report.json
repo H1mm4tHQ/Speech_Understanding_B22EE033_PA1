@@ -1,0 +1,29 @@
+{
+  "input_raw_audio": "outputs\\task3\\output_LRL_cloned_raw.wav",
+  "clean_audio": "outputs\\task3\\output_LRL_cloned_clean.wav",
+  "final_audio_for_evaluation": "outputs\\task3\\output_LRL_cloned.wav",
+  "method": "FFT speech band-limit + quantile spectral gate + RMS and peak normalization",
+  "original": {
+    "duration_sec": 610.0,
+    "rms_dbfs": -4.899764537811279,
+    "peak_dbfs": 39.28089141845703,
+    "noise_floor_proxy_dbfs": -160.0,
+    "speech_to_noise_proxy_db": 155.10023498535156
+  },
+  "normalized_input": {
+    "duration_sec": 610.0,
+    "rms_dbfs": -25.635433197021484,
+    "peak_dbfs": -0.4455280005931854,
+    "noise_floor_proxy_dbfs": -160.0,
+    "speech_to_noise_proxy_db": 134.36456298828125
+  },
+  "enhanced": {
+    "duration_sec": 610.0,
+    "rms_dbfs": -24.077817916870117,
+    "peak_dbfs": -0.4455280005931854,
+    "noise_floor_proxy_dbfs": -138.87640380859375,
+    "speech_to_noise_proxy_db": 114.79859161376953
+  },
+  "noise_floor_reduction_db": -21.12359619140625,
+  "speech_to_noise_proxy_improvement_db": -40.30164337158203
+}

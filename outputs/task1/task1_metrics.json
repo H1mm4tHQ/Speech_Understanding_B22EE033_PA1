@@ -1,0 +1,78 @@
+{
+  "task": "Task 1 - Robust Code-Switched Transcription",
+  "entrypoint": "python tasks/task1_robust_stt/main.py",
+  "results_dir": "outputs\\task1",
+  "core_code_files": [
+    "src/assignment2/models/lid.py",
+    "src/assignment2/modules/lid_system.py",
+    "src/assignment2/modules/denoise.py",
+    "src/assignment2/modules/ngram_lm.py",
+    "src/assignment2/modules/ctc_decode.py",
+    "src/assignment2/modules/stt_system.py"
+  ],
+  "outputs": {
+    "lid_checkpoint": "outputs\\task1\\lid_frame_model.pt",
+    "denoised_audio": "outputs\\task1\\original_segment_denoised.wav",
+    "constrained_transcript": "outputs\\task1\\transcript_constrained.txt",
+    "lid_confusion_matrix_plot": "outputs\\task1\\lid_confusion_matrix.png",
+    "switch_confusion_matrix_plot": "outputs\\task1\\switch_confusion_matrix.png",
+    "full_audio_lid_segments_csv": "outputs\\task1\\lid_full_audio_segments.csv",
+    "full_audio_lid_timeline_plot": "outputs\\task1\\lid_full_audio_timeline.png",
+    "wer_summary_plot": "outputs\\task1\\wer_summary.png",
+    "metrics": "outputs\\task1\\task1_metrics.json"
+  },
+  "requirements_checked": {
+    "task_1_1_lid_minimum_f1": 0.85,
+    "task_1_2_constrained_decoding": "Syllabus-biased Whisper logit-bias decoding",
+    "task_1_3_denoising": "Spectral subtraction followed by peak normalization"
+  },
+  "metrics": {
+    "lid": {
+      "available": true,
+      "frame_macro_f1": 0.975633048477927,
+      "switch_accuracy_200ms": 1.0,
+      "confusion_matrix": [
+        [
+          755,
+          0
+        ],
+        [
+          6,
+          64
+        ]
+      ],
+      "switch_confusion_matrix": [
+        [
+          818,
+          5
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "num_switch_frames": 2,
+      "num_labeled_frames": 825,
+      "labeled_audio_seconds": 8.25,
+      "full_audio_seconds": 610.0,
+      "labeled_audio_coverage_ratio": 0.013524590163934426
+    },
+    "transcription": {
+      "available": true,
+      "reference_path": "outputs\\task1\\manual_transcript_excerpt.txt",
+      "hypothesis_path": "outputs\\task1\\transcript_constrained.txt",
+      "reference_word_count": 1194,
+      "hypothesis_word_count": 1282,
+      "overall_wer": 0.4455611390284757,
+      "syllabus_terms_total": 66,
+      "reference_syllabus_term_count": 0,
+      "hypothesis_syllabus_term_count": 2,
+      "shared_syllabus_term_count": 0,
+      "shared_syllabus_terms": [],
+      "shared_syllabus_term_recall_vs_reference": null,
+      "syllabus_term_note": "The provided reference transcript contains no terms from data/syllabus_text.txt, so technical-term prioritization cannot be quantified on this audio.",
+      "hindi_wer": 0.44238856181665265,
+      "per_language_wer_method": "script_filtered_full_transcript"
+    }
+  }
+}

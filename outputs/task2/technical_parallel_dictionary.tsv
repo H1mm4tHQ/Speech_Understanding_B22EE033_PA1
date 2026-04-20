@@ -1,0 +1,368 @@
+entry_id	source_text	alt_source_text	source_lang	unified_ipa	gujarati_translation	category	notes
+T2-0001	hai		hindi	hɛ	છે	aux	common copula
+T2-0002	hain		hindi	hɛ̃	છે	aux	plural or formal
+T2-0003	tha		hindi	tʰaː	હતો	aux	past masculine
+T2-0004	thi		hindi	tʰiː	હતી	aux	past feminine
+T2-0005	the		hindi	tʰeː	હતા	aux	past plural
+T2-0006	main		hindi	mɛ̃	હું	pronoun	first person singular
+T2-0007	hum		hindi	ɦəm	અમે	pronoun	first person plural
+T2-0008	aap		hindi	aːp	તમે	pronoun	formal second person
+T2-0009	tum		hindi	tʊm	તમે	pronoun	informal second person
+T2-0010	ye		hindi	jeː	આ	pronoun	proximal
+T2-0011	vo		hindi	ʋoː	તે	pronoun	distal
+T2-0012	kya		hindi	kjaː	શું	question	interrogative
+T2-0013	kaise		hindi	kɛseː	કેવી રીતે	question	interrogative
+T2-0014	kyunki		hindi	kjoŋki	કારણ કે	conjunction	causal
+T2-0015	aur		hindi	ɔːr	અને	conjunction	additive
+T2-0016	lekin		hindi	leːkɪn	પણ	conjunction	contrastive
+T2-0017	nahi		hindi	nəɦiː	નહીં	negation	common negative
+T2-0018	agar		hindi	əɡər	જો	conjunction	conditional
+T2-0019	samajhna		hindi	səməd͡ʒʱnaː	સમજવું	verb	lecture domain
+T2-0020	bolna		hindi	boːlnaː	બોલવું	verb	lecture domain
+T2-0021	sunna		hindi	sʊnnaː	સાંભળવું	verb	lecture domain
+T2-0022	shabd		hindi	ʃəb̪d̪	શબ્દ	noun	common word
+T2-0023	bhasha		hindi	bʱaːʂaː	ભાષા	noun	language term
+T2-0024	awaaz		hindi	əʋaːz	અવાજ	noun	speech term
+T2-0025	dhvani		hindi	d̪ʱʋəni	ધ્વનિ	noun	phonetics term
+T2-0026	lecture		english	ˈlɛktʃər	લેકચર	academic	class session
+T2-0027	classroom		english	ˈklæsruːm	વર્ગખંડ	academic	environment
+T2-0028	speech		english	spiːtʃ	વાણી	speech	domain term
+T2-0029	signal		english	ˈsɪɡnəl	સંકેત	speech	domain term
+T2-0030	transcript		english	ˈtrænskrɪpt	ટ્રાન્સક્રિપ્ટ	speech	output text
+T2-0031	transcription		english	trænˈskrɪpʃən	લિપ્યંતરણ	speech	process
+T2-0032	frame		english	freɪm	ફ્રેમ	feature	analysis unit
+T2-0033	phoneme		english	ˈfoʊniːm	ધ્વનિમ	phonetics	unit
+T2-0034	vowel		english	ˈvaʊəl	સ્વર	phonetics	unit
+T2-0035	consonant		english	ˈkɑːnsənənt	વ્યંજન	phonetics	unit
+T2-0036	spectrum		english	ˈspɛktrəm	સ્પેક્ટ્રમ	feature	frequency domain
+T2-0037	cepstrum		english	ˈkɛpstrəm	કેપ્સ્ટ્રમ	feature	cepstral domain
+T2-0038	pitch		english	pɪtʃ	સ્વર ઊંચાઈ	prosody	f0 related
+T2-0039	energy		english	ˈɛnərdʒi	ઊર્જા	prosody	intensity related
+T2-0040	frequency		english	ˈfriːkwənsi	આવર્તન	prosody	signal property
+T2-0041	embedding		english	ɛmˈbɛdɪŋ	એમ્બેડિંગ	model	vector representation
+T2-0042	classifier		english	ˈklæsɪfaɪər	ક્લાસિફાયર	model	predictor
+T2-0043	stochastic		english	stoʊˈkæstɪk	સ્ટોકાસ્ટિક	model	technical term
+T2-0044	alignment		english	əˈlaɪnmənt	સંરેખણ	model	mapping step
+T2-0045	denoising		english	diːˈnɔɪzɪŋ	ડીનોઇઝિંગ	preprocess	noise removal
+T2-0046	normalization		english	nɔːrmələˈzeɪʃən	નોર્મલાઇઝેશન	preprocess	cleanup step
+T2-0047	beam search		english	biːm sɝːtʃ	બીમ સર્ચ	decoding	search method
+T2-0048	language identification		english	ˈlæŋɡwɪdʒ aɪˌdɛntɪfɪˈkeɪʃən	ભાષા ઓળખ	decoding	lid task
+T2-0049	dynamic time warping		english	daɪˈnæmɪk taɪm wɔːrpɪŋ	ડાયનામિક ટાઈમ વોર્પિંગ	prosody	dtw method
+T2-0050	synthesis		english	ˈsɪnθəsɪs	સિન્થેસિસ	tts	generation
+T2-0051	speaker		english	ˈspiːkər	વક્તા	speaker	person voice
+T2-0052	voice		english	vɔɪs	અવાજ	speaker	person voice
+T2-0053	spoof		english	spuːf	નકલી અવાજ	security	anti spoof term
+T2-0054	bona fide		english	ˌboʊnə ˈfaɪdi	વાસ્તવિક અવાજ	security	real speech
+T2-0055	adversarial		english	ˌædvərˈsɛriəl	એડ્વર્સેરિયલ	robustness	attack related
+T2-0056	perturbation		english	ˌpɝːtərˈbeɪʃən	ક્ષુદ્ર વિક્ષેપ	robustness	noise term
+T2-0057	तीसरा		hindi	tiːsɾaː	ત્રીજું	discourse	ordinal marker
+T2-0058	मैं		hindi	mɛ̃	હું	pronoun	first person
+T2-0059	मेरे		hindi	meːɾe	મારા	pronoun	possessive
+T2-0060	लिए		hindi	li.e	માટે	postposition	common in transcript
+T2-0061	कुछ		hindi	kʊt͡ʃ	કંઈ	quantifier	common in transcript
+T2-0062	नहीं		hindi	nəhĩː	નહીં	negation	common in transcript
+T2-0063	करूंगा		hindi	kəɾuːŋɡaː	કરીશ	verb	future first person
+T2-0064	आज		hindi	aːd͡ʒ	આજે	time	common in transcript
+T2-0065	मुझे		hindi	mʊd͡ʒʱe	મને	pronoun	oblique form
+T2-0066	चौबीस		hindi	t͡ʃɔbiːs	ચોવીસ	number	from transcript
+T2-0067	साल		hindi	saːl	વર્ષ	time	common in transcript
+T2-0068	कालखंड		hindi	kaːlkʰəɳɖ	સમયખંડ	noun	from transcript
+T2-0069	रूप		hindi	ɾuːp	રૂપ	noun	common
+T2-0070	देशवासियों		hindi	d̪eːʃʋaːsijõ	દેશવાસીઓ	noun	public audience
+T2-0071	काम		hindi	kaːm	કામ	noun	common in transcript
+T2-0072	दिया		hindi	d̪ijaː	આપ્યું	verb	past form
+T2-0073	तीन		hindi	tiːn	ત્રણ	number	common
+T2-0074	कसौटी		hindi	kəsɔʈiː	કસોટી	noun	decision criterion
+T2-0075	अपने		hindi	əpne	પોતાના	pronoun	reflexive possessive
+T2-0076	आप		hindi	aːp	પોતે	pronoun	reflexive in this context
+T2-0077	तोल		hindi	toːl	તોલ	noun	scale or weighing
+T2-0078	रखा		hindi	ɾəkʰaː	રાખ્યું	verb	past form
+T2-0079	इंस्पिरेशन		english_loan	ɪnspɪɾeːʃən	પ્રેરણા	abstract	borrowed English
+T2-0080	आवश्यकता		hindi	əʋəʃjəktaː	જરૂરિયાત	abstract	common in transcript
+T2-0081	सेवा		hindi	seːʋaː	સેવા	service	public service
+T2-0082	ऊर्जा		hindi	uːɾd͡ʒaː	ઊર્જા	abstract	common in transcript
+T2-0083	इंजीनियर		english_loan	ɪnd͡ʒɪˈnɪəɾ	ઇજનેર	profession	borrowed English
+T2-0084	person		english	pɜːsən	વ્યક્તિ	common	embedded English
+T2-0085	loves		english	ləvz	પ્રેમ કરે છે	common	embedded English
+T2-0086	mathematics		english	mɛθəˈmætɪks	ગણિત	academic	embedded English
+T2-0087	रामानुजन		hindi_name	ɾaːmaːnud͡ʒən	રામાનુજન	name	proper noun
+T2-0088	Indian		english	ɪnɖijən	ભારતીય	identity	embedded English
+T2-0089	mathematician		english	mæθəməˈtɪʃən	ગણિતજ્ઞ	academic	embedded English
+T2-0090	science		english	saɪəns	વિજ્ઞાન	academic	embedded English
+T2-0091	spirituality		english	spɪɾɪtʃuˈælɪʈi	આધ્યાત્મિકતા	abstract	embedded English
+T2-0092	connection		english	kəˈnɛkʃən	સંબંધ	abstract	embedded English
+T2-0093	scientific		english	saɪənˈtɪfɪk	વૈજ્ઞાનિક	academic	embedded English
+T2-0094	advanced		english	ədˈvaːnst	પ્રગતિશીલ	academic	embedded English
+T2-0095	minds		english	maɪndz	મનોવૃત્તિઓ	abstract	embedded English
+T2-0096	कट		english_loan	kʌʈ	અલગ	action	code-switched use
+T2-0097	off		english	ɔf	અલગ	particle	in phrase cut off
+T2-0098	श्रीनिवास		hindi_name	ʃɾiːniʋaːs	શ્રીનિવાસ	name	proper noun
+T2-0099	कहते		hindi	keːhte	કહેતા	verb	common
+T2-0100	उन्हें		hindi	ʊnʱẽ	તેમને	pronoun	oblique plural
+T2-0101	mathematical		english	mæθəˈmætɪkəl	ગણિતीय	academic	embedded English
+T2-0102	ideas		english	aɪˈdɪəz	વિચારો	abstract	embedded English
+T2-0103	देवी		hindi	deːʋiː	દેવી	spiritual	common in transcript
+T2-0104	पूजा		hindi	puːd͡ʒaː	પૂજા	spiritual	common in transcript
+T2-0105	तपस्या		hindi	t̪əpəsjaː	તપસ્યા	spiritual	common in transcript
+T2-0106	hard work		english	haːɾɖ wɜːk	કઠિન મહેનત	work	embedded English phrase
+T2-0107	खुद		hindi	kʰʊd̪	પોતે	pronoun	common
+T2-0108	खपा		hindi	kʰəpaː	સમર્પિત કરી દેવું	verb	contextual sense
+T2-0109	knowledge		english	nɑlɪd͡ʒ	જ્ઞાન	academic	embedded English
+T2-0110	sources		english	sɔːɾsɪz	સ્ત્રોતો	academic	embedded English
+T2-0111	open		english	oːpən	ખુલ્લા	descriptor	embedded English
+T2-0112	information		english	ɪnfəɾˈmeːʃən	માહિતી	academic	embedded English
+T2-0113	फर्क		hindi	fəɾk	ફરક	noun	common
+T2-0114	समझना		hindi	səməd͡ʒʱnaː	સમજવું	verb	common
+T2-0115	विधा		hindi	ʋɪd̪ʱaː	વિભાગ અથવા પદ્ધતિ	noun	knowledge genre
+T2-0116	processing		english	pɾaːsɛsɪŋ	પ્રક્રિયા કરવું	process	embedded English
+T2-0117	धीरे		hindi	d̪ʱiːɾe	ધીમે	manner	common
+T2-0118	evolve		english	iˈʋɔlʋ	વિકસવું	process	embedded English
+T2-0119	politician		english	pɑlɪˈʈɪʃən	રાજકારણી	governance	embedded English
+T2-0120	district		english	ɖɪsˈʈɾɪkʈ	જિલ્લો	governance	embedded English
+T2-0121	रात्रि		hindi	ɾaːtɾi	રાત્રિ	time	common
+T2-0122	मुकाम		hindi	mʊkaːm	મુકામ	noun	from transcript
+T2-0123	grassroot		english	ɡɾaːsɾuːʈ	ધરાતળનું	governance	embedded English
+T2-0124	level		english	lɛʋəl	સ્તર	governance	embedded English
+T2-0125	first hand		english	fɝsʈ hænɖ	પ્રત્યક્ષ	governance	embedded English
+T2-0126	निर्णय		hindi	nɪɾɳəj	નિર્ણય	governance	core term
+T2-0127	तराजू		hindi	təɾaːd͡zuː	તારાજુ	governance	decision metaphor
+T2-0128	देश		hindi	d̪eːʃ	દેશ	governance	core term
+T2-0129	गरीब		hindi	ɡəɾiːb	ગરીબ	governance	core term
+T2-0130	चेहरा		hindi	t͡ʃeːhɾaː	ચહેરો	noun	common
+T2-0131	सही		hindi	səhiː	યોગ્ય	descriptor	common
+T2-0132	information channel		english	ɪnfəɾˈmeːʃən tʃɛnəl	માહિતી ચેનલ	governance	embedded English phrase
+T2-0133	brief		english	bɾiːf	બ્રીફ	governance	embedded English
+T2-0134	निर्भर		hindi	nɪɾbʱəɾ	આધારિત	descriptor	common
+T2-0135	विद्यार्थी		hindi	ʋɪd̪jaːɾtʰiː	વિદ્યાર્થી	education	common
+T2-0136	भाव		hindi	bʱaːʋ	ભાવ	abstract	common
+T2-0137	देविल advocate		mixed	dɛʋəlz ˈædʋəkeːʈ	ડેવિલ્સ એડ્વોકેટ	argument	code-switched phrase
+T2-0138	उल्टे		hindi	ʊlʈe	ઉલટા	descriptor	common
+T2-0139	प्रश्न		hindi	pɾəʃn	પ્રશ્ન	education	common
+T2-0140	बारीकी		hindi	baːɾiːkiː	સૂક્ષ્મતા	analysis	common
+T2-0141	मंथन		hindi	mən̪t̪ʰən	મંથન	analysis	common
+T2-0142	reaction		english	ɾiˈækʃən	પ્રતિક્રિયા	analysis	embedded English
+T2-0143	convince		english	kənˈʋɪns	વિશ્વાસમાં આવવું	analysis	embedded English
+T2-0144	process		english	pɾaːsɛs	પ્રક્રિયા	analysis	embedded English
+T2-0145	speed		english	spiːɖ	ઝડપ	analysis	embedded English
+T2-0146	corona		english_loan	koːɾoːnaː	કોરોના	health	borrowed English
+T2-0147	economist		english	iˈkɑnəmɪst	અર્થશાસ્ત્રી	economy	embedded English
+T2-0148	political parties		english	pəˈlɪʈɪkəl paːɾʈiz	રાજકીય પક્ષો	governance	embedded English phrase
+T2-0149	pressure		english	pɾɛʃəɾ	દબાણ	economy	embedded English
+T2-0150	भूखा		hindi	bʱuːkʰaː	ભૂખ્યો	state	common
+T2-0151	social tension		english	soːʃəl tɛnʃən	સામાજિક તણાવ	governance	embedded English phrase
+T2-0152	lockdown		english	lɑkɖaːʊn	લોકડાઉન	health	embedded English
+T2-0153	expert opinion		english	ɛkspɜːʈ əˈpɪnjən	નિષ્ણાત મત	analysis	embedded English phrase
+T2-0154	परिस्थिति		hindi	pəɾɪst̪ʰɪt̪i	પરિસ્થિતિ	governance	core term
+T2-0155	inflation		english	ɪnˈfleːʃən	મૂલ્યવૃદ્ધિ	economy	embedded English
+T2-0156	संकट		hindi	səŋkəʈ	સંકટ	governance	core term
+T2-0157	theory		english	θiəɾi	સિદ્ધાંત	analysis	embedded English
+T2-0158	basic		english	beːsɪk	મૂળભૂત	analysis	embedded English
+T2-0159	fundamental		english	fʌnɖəˈmɛnʈəl	મૂલ આધાર	economy	embedded English
+T2-0160	focus		english	foːkəs	ફોકસ	analysis	embedded English
+T2-0161	risk taking capacity		english	ɾɪsk ʈeːkɪŋ kəˈpæsɪʈi	જોખમ લેવાની ક્ષમતા	governance	embedded English phrase
+T2-0162	ownership		english	oːnəɾʃɪp	માલિકી	governance	embedded English
+T2-0163	गलती		hindi	ɡəlt̪i	ભૂલ	common	common in transcript
+T2-0164	जिम्मा		hindi	d͡zɪmmaː	જવાબદારી	governance	common in transcript
+T2-0165	team		english	ʈiːm	ટીમ	governance	embedded English
+T2-0166	ईमानदारी		hindi	iːmaːnd̪aːɾiː	ઇમાનદારી	governance	core term
+T2-0167	सरकार		hindi	səɾkaːɾ	સરકાર	governance	core term
+T2-0168	अफसर		hindi	əfsəɾ	અધિકારી	governance	common in transcript
+T2-0169	ईर्षा		hindi	iːɾʂjaː	ઇર્ષ્યા	abstract	common in transcript
+T2-0170	तकलीफ		hindi	t̪əkliːf	તકલીફ	abstract	common in transcript
+T2-0171	जानकारी		hindi	d͡ʒaːnkaːɾiː	માહિતી	abstract	common in transcript
+T2-0172	आदर		hindi	aːd̪əɾ	આદર	abstract	common in transcript
+T2-0173	महात्मा गांधी		hindi_name	məɦaːtmaː ɡaːnd̪ʱiː	મહાત્મા ગાંધી	name	reference in transcript
+T2-0174	मंत्र		hindi	mənt̪ɾ	મંત્ર	abstract	common in transcript
+T2-0175	ग्रासरूट		mixed	ɡɾaːsɾuːʈ	ધરાતળનું	governance	romanized loan form
+T2-0176	गोवर्नेंस		english_loan	ɡʌʋəɾnəns	શાસન	governance	romanized loan form
+T2-0177	फंडामेंटल		english_loan	fʌnɖəˈmɛnʈəl	મૂળભૂત આધાર	analysis	romanized loan form
+T2-0178	कैपेसिटी		english_loan	kəˈpæsɪʈi	ક્ષમતા	analysis	romanized loan form
+T2-0179	तीसरा मैं कहता था मेरे लिए मैं कुछ नहीं करूंगा आज मुझे चौबीस साल हो गए		mixed_hinglish	tiːsɾaː mɛ̃ keːhtaː tʰaː meːɾe li.e mɛ̃ kʊt͡ʃ nəhĩː kəɾuːŋɡaː | aːd͡ʒ mʊd͡ʒʱe t͡ʃɔbiːs saːl hoː ɡəe	ત્રીજું, હું કહતો હતો કે હું મારા માટે કંઈ નહીં કરું; આજે મને ચોવીસ વર્ષ થઈ ગયા છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0180	इतने लंबे कालखंड से मैं head of the government के रूप में काम कर रहा हूं		mixed_hinglish	ɪtne ləmbe kaːlkʰəɳɖ se mɛ̃ hɛɖ ɔf ðə ɡəvənməɳʈ ke ɾuːp mẽ kaːm kəɾ ɾəhaː hũ	આટલા લાંબા સમયથી હું સરકારના વડા તરીકે કામ કરું છું.	lecture_excerpt	segment extracted from corrected transcript
+T2-0181	देशवासियों ने मुझे काम दिया है मेरे इन तीन कसौटियों पर मैंने अपने आप को तोल कर रखा है और मेरी inspiration लोगों की सेवा उनकी aspiration और उनकी आवश्यकता है		mixed_hinglish	d̪eːʃʋaːsijõ ne mʊd͡ʒʱe kaːm d̪ijaː hɛ | meːɾe ɪn tiːn kəsɔʈijõ pəɾ mɛ̃ne əpne aːp ko toːl kəɾ ɾəkʰaː hɛ | ɔɾ meːɾi ɪnspɪɾeːʃən loːɡõ ki seːʋaː ʊnki æspɪɾeːʃən ɔɾ ʊnki əʋəʃjəktaː hɛ	દેશવાસીઓએ મને કામ આપ્યું છે; હું મારા કામને ત્રણ કસોટીઓ પર તોલું છું, અને મારી પ્રેરણા લોકોની સેવા, તેમની આકાંક્ષા અને તેમની જરૂરિયાત છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0182	आज भी मेरी ऊर्जा वही है जी मी एज एन engineer अ person who loves mathematics		mixed_hinglish	aːd͡ʒ bʱiː meːɾi uːɾd͡ʒaː ʋəɦiː hɛ | d͡ʒiː miː eːd͡ʒ ɛn ɪnd͡ʒɪˈnɪəɾ ə pɜːsən huː ləvz mɛθəˈmætɪks	આજે પણ મારી ઊર્જા એ જ છે; હું એક ઇજનેર છું અને ગણિતને પ્રેમ કરનાર વ્યક્તિ છું.	lecture_excerpt	segment extracted from corrected transcript
+T2-0183	रामानुजन एक Indian mathematician थे और मैं उनका बहुत आदर करता हूं क्योंकि science और spirituality के बीच बड़ा connection है		mixed_hinglish	ɾaːmaːnud͡ʒən eːk ɪnɖijən mæθəməˈtɪʃən tʰeː | ɔɾ mɛ̃ ʊnkaː bəhʊt aːd̪əɾ kəɾtaː hũ kjõki saɪəns ɔɾ spɪɾɪtʃuˈælɪʈi ke biːt͡ʃ bəɽaː kəˈnɛkʃən hɛ	રામાનુજન એક ભારતીય ગણિતજ્ઞ હતા; હું તેમનો ઘણો આદર કરું છું, કારણ કે વિજ્ઞાન અને આધ્યાત્મ વચ્ચે ઊંડો સંબંધ છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0184	बहुत से scientific advanced minds spiritual भी होते हैं वह cut off नहीं होते हैं		mixed_hinglish	bəhʊt se saɪənˈtɪfɪk ədˈvaːnst maɪndz spɪɾɪtʃuəl bʱiː hoːte hɛ̃ | ʋeː kʌʈ ɔf nəhĩː hoːte hɛ̃	ઘણા વૈજ્ઞાનિક રીતે પ્રગતિશીલ મનોવૃત્તિ ધરાવતા લોકો આધ્યાત્મિક પણ હોય છે; તેઓ સંપૂર્ણપણે અલગ પડેલા નથી.	lecture_excerpt	segment extracted from corrected transcript
+T2-0185	श्रीनिवास रामानुजम कहते थे कि उन्हें mathematical ideas उस देवी से आते हैं जिसकी वह पूजा करते हैं और तपस्या सिर्फ hard work नहीं है		mixed_hinglish	ʃɾiːniʋaːs ɾaːmaːnud͡ʒəm keːhte tʰeː ki ʊnʱẽ mæθəməˈtɪkəl aɪˈdɪəz ʊs deːʋi se aːte hɛ̃ d͡ʒiski ʋəɦ puːd͡ʒaː kəɾte hɛ̃ | ɔɾ t̪əpəsjaː sɪɾf haːɾɖ wɜːk nəhĩː hɛ	શ્રીનિવાસ રામાનુજમ કહેતા હતા કે તેમને ગણિતીય વિચારો તેમની પૂજ્ય દેવી પાસેથી મળે છે, અને તપસ્યા માત્ર કઠિન મહેનત નથી.	lecture_excerpt	segment extracted from corrected transcript
+T2-0186	एक काम के लिए खुद को खपा देना और knowledge के जितने ज्यादा sources के लिए अपने open होंगे उतने ज्यादा ideas आएंगे		mixed_hinglish	eːk kaːm ke li.e kʰʊd̪ ko kʰəpaː d̪eːnaː | ɔɾ nɑlɪd͡ʒ ke d͡ʒɪtne d͡ʒjaːd̪aː sɔːɾsɪz ke li.e əpne oːpən hõge ʊtne d͡ʒjaːd̪aː aɪˈdɪəz aːẽge	એક કાર્ય માટે પોતાને સમર્પિત કરી દેવું જોઈએ; અને જેટલા વધુ જ્ઞાનના સ્ત્રોતો માટે આપણે ખુલ્લા થઈશું, એટલા વધુ વિચારો આવશે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0187	information और knowledge के बीच फर्क समझना चाहिए knowledge एक विधा है जो processing के बाद धीरे धीरे evolve होती है		mixed_hinglish	ɪnfəɾˈmeːʃən ɔɾ nɑlɪd͡ʒ ke biːt͡ʃ fəɾk səməd͡ʒʱnaː tʃaːhi.e | nɑlɪd͡ʒ eːk ʋɪd̪ʱaː hɛ d͡ʒoː pɾaːsɛsɪŋ ke baːd̪ d̪ʱiːɾe d̪ʱiːɾe iˈʋɔlʋ hoːti hɛ	માહિતી અને જ્ઞાન વચ્ચેનો ફરક સમજવો જોઈએ; જ્ઞાન એક એવી પ્રક્રિયાથી વિકસે છે જે ધીમે ધીમે પરિપક્વ બને છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0188	मैं ऐसा politician हूं जिसने 85 से 90 district में रात्रि मुकाम किया है इसलिए मेरे पास grassroot level की first hand information है		mixed_hinglish	mɛ̃ ɛsaː pɑlɪˈʈɪʃən hũ d͡ʒɪsne pət͡ʃaːsiː se nəʋe ɖɪsˈʈɾɪkʈ mẽ ɾaːtɾi mʊkaːm kɪjaː hɛ | ɪsli.e meːɾe paːs ɡɾaːsɾuːʈ lɛʋəl ki fɝsʈ hænɖ ɪnfəɾˈmeːʃən hɛ	હું એવો રાજકારણી છું જેણે 85થી 90 જિલ્લાઓમાં રાત્રિ મુકામ કર્યો છે; તેથી મારી પાસે ધરાતળ સ્તરની પ્રત્યક્ષ માહિતી છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0189	निर्णय करने में मेरा तराजू है देश सबसे पहले और अगर उलझन हो तो गरीब का चेहरा याद करो तब निर्णय सही होगा		mixed_hinglish	nɪɾɳəj kəɾne mẽ meːɾaː təɾaːd͡zuː hɛ d̪eːʃ səbse pəhle | ɔɾ əɡəɾ ʊld͡ʒʱən hoː toː ɡəɾiːb kaː t͡ʃeːhɾaː jaːd̪ kəɾoː t̪əb nɪɾɳəj səhiː hoːɡaː	નિર્ણય કરતી વખતે મારી કસોટી એ છે કે દેશ સૌ પ્રથમ આવે; અને જો મૂંઝવણ હોય તો ગરીબ માણસનો ચહેરો યાદ કરવો, ત્યારે નિર્ણય યોગ્ય બને.	lecture_excerpt	segment extracted from corrected transcript
+T2-0190	मेरे information channel बहुत हैं मैं brief पर निर्भर नहीं रहता विद्यार्थी भाव से पूछता हूं और कभी devil advocate बनकर उल्टे प्रश्न भी करता हूं		mixed_hinglish	meːɾe ɪnfəɾˈmeːʃən tʃɛnəl bəhʊt hɛ̃ | mɛ̃ bɾiːf pəɾ nɪɾbʱəɾ nəhĩː ɾehtaː | ʋɪd̪jaːɾtʰi bʱaːʋ se puːt͡ʃt̪aː hũ ɔɾ kəbʱi dɛʋəlz ˈædʋəkeːʈ bənkəɾ ʊlʈe pɾəʃn bʱiː kəɾtaː hũ	મારા માહિતી ચેનલો બહુ છે; હું માત્ર બ્રીફ પર આધાર રાખતો નથી, વિદ્યાર્થીભાવથી પૂછું છું અને ક્યારેક ડેવિલ્સ એડ્વોકેટ બનીને ઉલ્ટા પ્રશ્નો પણ કરું છું.	lecture_excerpt	segment extracted from corrected transcript
+T2-0191	बहुत बारीकी से मंथन करना पड़ता है reaction देखता हूं और जब convince हो जाता हूं तो process बहुत speed से चलती है		mixed_hinglish	bəhʊt baːɾiːki se mən̪t̪ʰən kəɾnaː pəɽt̪aː hɛ | ɾiˈækʃən d̪eːkʰt̪aː hũ | ɔɾ d͡ʒəb kənˈʋɪns hoː d͡ʒaːt̪aː hũ toː pɾaːsɛs bəhʊt spiːɖ se t͡ʃəlt̪i hɛ	ઘણી બારીકીથી મંથન કરવું પડે છે; હું પ્રતિક્રિયાઓ જોઉં છું, અને જ્યારે મને વિશ્વાસ થાય છે ત્યારે પ્રક્રિયા ખૂબ ઝડપથી આગળ વધે છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0192	corona के समय economist और political parties pressure डालते थे लेकिन मैंने गरीब को भूखा सोने नहीं देने और social tension न बढ़ने देने का निर्णय किया		mixed_hinglish	koːɾoːnaː ke səmaj iˈkɑnəmɪst ɔɾ pəˈlɪʈɪkəl paːɾʈiz pɾɛʃəɾ ɖaːlte tʰeː | leːkɪn mɛ̃ne ɡəɾiːb ko bʱuːkʰaː soːne nəhĩː d̪eːne ɔɾ soːʃəl tɛnʃən nə bəɽʱne d̪eːne kaː nɪɾɳəj kɪjaː	કોરોના સમય દરમિયાન અર્થશાસ્ત્રીઓ અને રાજકીય પક્ષો દબાણ કરતા હતા, પરંતુ મેં ગરીબને ભૂખ્યા સુવા ન દેવાનો અને સામાજિક તણાવ ન વધવા દેવાનો નિર્ણય કર્યો.	lecture_excerpt	segment extracted from corrected transcript
+T2-0193	lockdown के समय दुनिया pressure कर रही थी पर मैंने expert opinion सुनकर भी देश की परिस्थिति के अनुसार निर्णय लिया और inflation से बचाया		mixed_hinglish	lɑkɖaːʊn ke səmaj d̪ʊnijaː pɾɛʃəɾ kəɾ ɾəhiː tʰiː | pəɾ mɛ̃ne ɛkspɜːʈ əˈpɪnjən sʊnkəɾ bʱiː d̪eːʃ ki pəɾɪst̪ʰɪt̪i ke ənu.saːɾ nɪɾɳəj lɪjaː ɔɾ ɪnˈfleːʃən se bət͡ʃaːjaː	લોકડાઉનના સમયમાં દુનિયા દબાણ કરી રહી હતી, છતાં મેં નિષ્ણાતોની સલાહ સાંભળીને પણ દેશની પરિસ્થિતિ અનુસાર નિર્ણય લીધો અને મૂલ્યવૃદ્ધિથી બચાવવાનો પ્રયાસ કર્યો.	lecture_excerpt	segment extracted from corrected transcript
+T2-0194	संकट के समय दुनिया भर की theory लागू करने के मोह में पड़े बिना मैंने basic fundamental पर focus किया		mixed_hinglish	səŋkəʈ ke səmaj d̪ʊnijaː bʱəɾ ki θiəɾi laːɡuː kəɾne ke moːh mẽ pəɽe bɪnaː mɛ̃ne beːsɪk fʌnɖəˈmɛnʈəl pəɾ foːkəs kɪjaː	સંકટના સમયમાં દુનિયાભરની થિયરીઓને અંધપણે લાગુ કરવાની લાલચમાં પડ્યા વગર મેં મૂળભૂત આધારબિંદુઓ પર ફોકસ કર્યું.	lecture_excerpt	segment extracted from corrected transcript
+T2-0195	मेरी risk taking capacity बहुत है मैं ownership लेता हूं गलती हो तो जिम्मा खुद लेता हूं और team मेरे साथ खड़ी रहती है		mixed_hinglish	meːɾi ɾɪsk ʈeːkɪŋ kəˈpæsɪʈi bəhʊt hɛ | mɛ̃ oːnəɾʃɪp leːt̪aː hũ | ɡəlt̪i hoː toː d͡zɪmmaː kʰʊd̪ leːt̪aː hũ ɔɾ ʈiːm meːɾe saːtʰ kʰəɽi ɾeht̪i hɛ	મારી જોખમ લેવાની ક્ષમતા બહુ છે; હું માલિકી લઈ લઉં છું, ભૂલ થાય તો જવાબદારી પોતે સ્વીકારું છું, અને ટીમ મારા સાથે મજબૂત ઉભી રહે છે.	lecture_excerpt	segment extracted from corrected transcript
+T2-0196	तीसरा मैं कहता था कि मेरे लिए मैं कुछ नहीं करूंगा।		mixed_hinglish		ત્રીજું, હું કહેતો હતો કે હું મારા માટે કંઈ નહીં કરું.	service	parallel corpus row
+T2-0197	आज मुझे चौबीस साल हो गए और इतने लंबे कालखंड से मैं सार्वजनिक जीवन में काम कर रहा हूं।		mixed_hinglish		આજે મને ચોવીસ વર્ષ થઈ ગયા છે અને આટલા લાંબા સમયથી હું જાહેર જીવનમાં કામ કરું છું.	service	parallel corpus row
+T2-0198	देशवासियों ने मुझे काम दिया है और मैंने अपने आप को कसौटियों पर तौल कर रखा है।		mixed_hinglish		દેશવાસીઓએ મને કામ આપ્યું છે અને મેં મારા જાતને કસોટીઓ પર તોલ્યો છે.	service	parallel corpus row
+T2-0199	मेरी प्रेरणा लोगों की सेवा, उनकी आकांक्षा और उनकी आवश्यकता है।		mixed_hinglish		મારી પ્રેરણા લોકોની સેવા, તેમની આકાંક્ષા અને તેમની જરૂરિયાત છે.	service	parallel corpus row
+T2-0200	आज भी मेरी ऊर्जा वही है और मैं अपने काम को उसी भावना से देखता हूं।		mixed_hinglish		આજે પણ મારી ઊર્જા એ જ છે અને હું મારા કાર્યને એ જ ભાવનાથી જોઉં છું.	motivation	parallel corpus row
+T2-0201	मैं एक engineer हूं और mathematics से प्रेम करने वाला व्यक्ति हूं।		mixed_hinglish		હું એક ઇજનેર છું અને ગણિતને પ્રેમ કરનાર વ્યક્તિ છું.	identity	parallel corpus row
+T2-0202	रामानुजन एक Indian mathematician थे और उनका जीवन मेरे लिए प्रेरणा है।		mixed_hinglish		રામાનુજન એક ભારતીય ગણિતજ્ઞ હતા અને તેમનું જીવન મારા માટે પ્રેરણા છે.	science	parallel corpus row
+T2-0203	मैं उनका बहुत आदर करता हूं क्योंकि science और spirituality के बीच गहरा connection है।		mixed_hinglish		હું તેમનો ઘણો આદર કરું છું કારણ કે વિજ્ઞાન અને આધ્યાત્મ વચ્ચે ઊંડો સંબંધ છે.	science	parallel corpus row
+T2-0204	बहुत से scientific advanced minds spiritual भी होते हैं और वे कट ऑफ नहीं होते।		mixed_hinglish		ઘણા વૈજ્ઞાનિક રીતે પ્રગતિશીલ મનોવૃત્તિ ધરાવતા લોકો આધ્યાત્મિક પણ હોય છે અને તેઓ સંપૂર્ણપણે અલગ પડતા નથી.	science	parallel corpus row
+T2-0205	श्रीनिवास रामानुजम कहते थे कि mathematical ideas उन्हें उनकी उपासना से प्राप्त होते हैं।		mixed_hinglish		શ્રીનિવાસ રામાનુજમ કહેતા હતા કે તેમને ગણિતીય વિચારો તેમની ઉપાસનાથી પ્રાપ્ત થતા હતા.	science	parallel corpus row
+T2-0206	तपस्या केवल hard work नहीं है बल्कि किसी एक काम के लिए स्वयं को समर्पित कर देना है।		mixed_hinglish		તપસ્યા માત્ર કઠિન મહેનત નથી, પરંતુ એક કાર્ય માટે પોતાને સંપૂર્ણ સમર્પિત કરી દેવું છે.	spirituality	parallel corpus row
+T2-0207	जितने ज्यादा knowledge sources के लिए हम open होंगे उतने ज्यादा ideas हमारे पास आएंगे।		mixed_hinglish		જેટલા વધુ જ્ઞાનના સ્ત્રોતો માટે આપણે ખુલ્લા થઈશું, એટલા વધુ વિચારો અમારા પાસે આવશે.	knowledge	parallel corpus row
+T2-0208	information और knowledge के बीच फर्क समझना बहुत जरूरी है।		mixed_hinglish		માહિતી અને જ્ઞાન વચ્ચેનો ફરક સમજવો ખૂબ જરૂરી છે.	knowledge	parallel corpus row
+T2-0209	knowledge एक ऐसी विधा है जो processing के बाद धीरे धीरे evolve होती है।		mixed_hinglish		જ્ઞાન એવી પ્રક્રિયા છે જે પ્રક્રિયા બાદ ધીમે ધીમે વિકસે છે.	knowledge	parallel corpus row
+T2-0210	मैं ऐसा politician हूं जिसने पचासी से नब्बे district में रात्रि मुकाम किया है।		mixed_hinglish		હું એવો રાજકારણી છું જેણે પંચ્યાસીથી નવ્વાં જિલ્લાઓમાં રાત્રિ મુકામ કર્યો છે.	governance	parallel corpus row
+T2-0211	इसलिए मेरे पास grassroot level की first hand information उपलब्ध है।		mixed_hinglish		તે કારણે મારી પાસે ધરાતળ સ્તરની પ્રત્યક્ષ માહિતી ઉપલબ્ધ છે.	governance	parallel corpus row
+T2-0212	निर्णय करने में मेरा तराजू है कि देश सबसे पहले आता है।		mixed_hinglish		નિર્ણય કરતી વખતે મારી કસોટી એ છે કે દેશ સૌ પ્રથમ આવે છે.	decision	parallel corpus row
+T2-0213	अगर उलझन हो तो गरीब का चेहरा याद करो और सोचो कि निर्णय उसके काम आएगा या नहीं।		mixed_hinglish		જો મૂંઝવણ હોય તો ગરીબનો ચહેરો યાદ કરો અને વિચારો કે નિર્ણય તેના કામ આવશે કે નહીં.	decision	parallel corpus row
+T2-0214	मेरे information channel बहुत हैं और वे बहुत live हैं इसलिए मुझे अनेक स्रोतों से जानकारी मिलती है।		mixed_hinglish		મારા માહિતી ચેનલો બહુ છે અને તેઓ ખૂબ સક્રિય છે, તેથી મને અનેક સ્ત્રોતોથી જાણકારી મળે છે.	governance	parallel corpus row
+T2-0215	मैं केवल brief पर निर्भर नहीं रहता बल्कि विद्यार्थी भाव से प्रश्न पूछता हूं।		mixed_hinglish		હું માત્ર બ્રીફ પર આધાર રાખતો નથી, પરંતુ વિદ્યાર્થીભાવથી પ્રશ્નો પૂછું છું.	decision	parallel corpus row
+T2-0216	कभी कभी मैं devil advocate बनकर उल्टे प्रश्न भी करता हूं ताकि बात की गहराई समझ सकूं।		mixed_hinglish		ક્યારેક હું ડેવિલ્સ એડ્વોકેટ બનીને ઉલ્ટા પ્રશ્નો પણ કરું છું જેથી વાતની ઊંડાણપૂર્વક સમજ મળી શકે.	decision	parallel corpus row
+T2-0217	बहुत बारीकी से मंथन करना पड़ता है और फिर reaction देखकर निर्णय लेना पड़ता है।		mixed_hinglish		ઘણી બારીકીથી મંથન કરવું પડે છે અને પછી પ્રતિક્રિયા જોઈને નિર્ણય લેવો પડે છે.	decision	parallel corpus row
+T2-0218	जब मैं convince हो जाता हूं तब process बहुत speed से आगे बढ़ती है।		mixed_hinglish		જ્યારે મને ખાતરી થાય છે ત્યારે પ્રક્રિયા ખૂબ ઝડપથી આગળ વધે છે.	decision	parallel corpus row
+T2-0219	corona के समय economist और political parties दोनों pressure डाल रहे थे।		mixed_hinglish		કોરોના સમયે અર્થશાસ્ત્રીઓ અને રાજકીય પક્ષો બંને દબાણ કરી રહ્યા હતા.	covid	parallel corpus row
+T2-0220	लेकिन मैंने यह तय किया कि गरीब भूखा नहीं सोएगा और social tension नहीं बढ़ने दूंगा।		mixed_hinglish		પરંતુ મેં નક્કી કર્યું કે ગરીબ ભૂખ્યો નહીં સૂએ અને સામાજિક તણાવ વધવા નહીં દઉં.	covid	parallel corpus row
+T2-0221	दुनिया lockdown में थी और लोग तरह तरह की economic theory लागू करने का दबाव बना रहे थे।		mixed_hinglish		દુનિયા લોકડાઉનમાં હતી અને લોકો વિવિધ આર્થિક સિદ્ધાંતો લાગુ કરવાની દબાણ કરી રહ્યા હતા.	economy	parallel corpus row
+T2-0222	मैंने expert opinion सुना लेकिन निर्णय अपने देश की परिस्थिति के अनुसार लिया।		mixed_hinglish		મેં નિષ્ણાતોનું મત સાંભળ્યું, પરંતુ નિર્ણય મારા દેશની પરિસ્થિતિ અનુસાર લીધો.	economy	parallel corpus row
+T2-0223	मेरे अनुभव और स्थानीय जरूरतों को मिलाकर मैंने अपनी व्यवस्था विकसित की।		mixed_hinglish		મારા અનુભવ અને સ્થાનિક જરૂરિયાતોને મિલાવીને મેં મારી વ્યવસ્થા વિકસાવી.	economy	parallel corpus row
+T2-0224	इसी कारण मेरे देश ने inflation की समस्या को अपेक्षाकृत कम झेला।		mixed_hinglish		આ જ કારણથી મારા દેશમાં મૂલ્યવૃદ્ધિની સમસ્યા તુલનાત્મક રીતે ઓછી રહી.	economy	parallel corpus row
+T2-0225	कोविड के बाद भी देश तेजी से प्रगति करने वाली बड़ी economy में बना रहा।		mixed_hinglish		કોવિડ પછી પણ દેશ તેજીથી પ્રગતિ કરનારી મોટી અર્થવ્યવસ્થામાં રહ્યો.	economy	parallel corpus row
+T2-0226	संकट के समय दुनिया भर की theory लागू करने के मोह में पड़ना जरूरी नहीं होता।		mixed_hinglish		સંકટના સમયમાં દુનિયાભરની થિયરી લાગુ કરવાની લાલચમાં પડવું જરૂરી નથી.	economy	parallel corpus row
+T2-0227	मैंने basic fundamental पर focus किया और उसी पर टिके रहकर काम किया।		mixed_hinglish		મેં મૂળભૂત આધારબિંદુઓ પર ફોકસ કર્યું અને એ જ આધાર પર કામ કર્યું.	economy	parallel corpus row
+T2-0228	मेरी risk taking capacity बहुत है और मैं देशहित में कठिन निर्णय लेने को तैयार रहता हूं।		mixed_hinglish		મારી જોખમ લેવાની ક્ષમતા બહુ છે અને હું દેશહિતમાં કઠિન નિર્ણયો લેવા તૈયાર રહું છું.	leadership	parallel corpus row
+T2-0229	मैं ownership लेता हूं और गलती हो तो जिम्मा खुद अपने ऊपर लेता हूं।		mixed_hinglish		હું માલિકી સ્વીકારું છું અને ભૂલ થાય તો જવાબદારી પોતે સ્વીકારું છું.	leadership	parallel corpus row
+T2-0230	जब नेता ownership लेता है तो team भी समर्पण के साथ उसके साथ खड़ी रहती है।		mixed_hinglish		જ્યારે નેતા માલિકી લે છે ત્યારે ટીમ પણ સમર્પિત ભાવથી તેની સાથે ઉભી રહે છે.	leadership	parallel corpus row
+T2-0231	ईमानदारी से लिया गया निर्णय लंबे समय में भरोसा पैदा करता है।		mixed_hinglish		ઇમાનદારીથી લેવાયેલ નિર્ણય લાંબા ગાળામાં વિશ્વાસ પેદા કરે છે.	leadership	parallel corpus row
+T2-0232	मेरे लिए सेवा, ज्ञान, अनुशासन और निर्णय क्षमता एक दूसरे से जुड़े हुए मूल्य हैं।		mixed_hinglish		મારા માટે સેવા, જ્ઞાન, શિસ્ત અને નિર્ણયક્ષમતા પરસ્પર જોડાયેલા મૂલ્યો છે.	summary	parallel corpus row
+T2-0233	वाक् पहचान	speech recognition	mixed_lexicon		વાણી ઓળખ	stt	core task
+T2-0234	स्वचालित वाक् पहचान	automatic speech recognition	mixed_lexicon		સ્વચાલિત વાણી ઓળખ	stt	core task
+T2-0235	भाषा पहचान	language identification	mixed_lexicon		ભાષા ઓળખ	lid	core task
+T2-0236	कोड स्विचिंग	code switching	mixed_lexicon		કોડ સ્વીચિંગ	lid	core task
+T2-0237	प्रतिलेख	transcript	mixed_lexicon		ટ્રાન્સક્રિપ્ટ	text	output artifact
+T2-0238	लिप्यंतरण	transcription	mixed_lexicon		લિપ્યંતરણ	text	conversion process
+T2-0239	अनुवाद	translation	mixed_lexicon		અનુવાદ	translation	core task
+T2-0240	ध्वनिम	phoneme	mixed_lexicon		ધ્વનિમ	phonetics	core unit
+T2-0241	वर्ण	grapheme	mixed_lexicon		અક્ષર	phonetics	text unit
+T2-0242	अक्षरखंड	syllable	mixed_lexicon		અક્ષરખંડ	phonetics	prosody related
+T2-0243	फ्रेम	frame	mixed_lexicon		ફ્રેમ	features	analysis unit
+T2-0244	फ्रेम शिफ्ट	frame shift	mixed_lexicon		ફ્રેમ શિફ્ટ	features	window hop
+T2-0245	सैम्पलिंग दर	sampling rate	mixed_lexicon		સેમ્પલિંગ દર	audio	audio setup
+T2-0246	लक्षण निष्कर्षण	feature extraction	mixed_lexicon		લક્ષણ નિષ્કર્ષણ	features	processing stage
+T2-0247	स्पेक्ट्रम	spectrum	mixed_lexicon		સ્પેક્ટ્રમ	features	frequency domain
+T2-0248	सेप्स्ट्रम	cepstrum	mixed_lexicon		કેપ્સ્ટ્રમ	features	cepstral domain
+T2-0249	मेल सेप्स्ट्रम	mel cepstrum	mixed_lexicon		મેલ કેપ્સ્ટ્રમ	features	tts metric related
+T2-0250	पिच	pitch	mixed_lexicon		પિચ	prosody	f0 related
+T2-0251	ऊर्जा	energy	mixed_lexicon		ઊર્જા	prosody	intensity related
+T2-0252	मूल आवृत्ति	fundamental frequency	mixed_lexicon		મૂળ આવર્તન	prosody	f0 term
+T2-0253	स्पीकर एम्बेडिंग	speaker embedding	mixed_lexicon		વક્તા એમ્બેડિંગ	speaker	part 3
+T2-0254	डी वेक्टर	d-vector	mixed_lexicon		ડી વેક્ટર	speaker	embedding type
+T2-0255	एक्स वेक्टर	x-vector	mixed_lexicon		એક્સ વેક્ટર	speaker	embedding type
+T2-0256	वॉइस क्लोनिंग	voice cloning	mixed_lexicon		અવાજ નકલ	tts	part 3
+T2-0257	वाक् संश्लेषण	speech synthesis	mixed_lexicon		વાણી સિન્થેસિસ	tts	core generation
+T2-0258	जीरो शॉट क्लोनिंग	zero shot cloning	mixed_lexicon		ઝીરો શોટ ક્લોનિંગ	tts	part 3
+T2-0259	सरेखण	alignment	mixed_lexicon		સંરેખણ	alignment	sequence mapping
+T2-0260	डायनमिक टाइम वॉर्पिंग	dynamic time warping	mixed_lexicon		ડાયનામિક ટાઈમ વોર્પિંગ	alignment	prosody transfer
+T2-0261	शोर हटाना	denoising	mixed_lexicon		ડીનોઇઝિંગ	preprocess	noise cleanup
+T2-0262	स्पेक्ट्रल सब्ट्रैक्शन	spectral subtraction	mixed_lexicon		સ્પેક્ટ્રલ સબ્ટ્રેક્શન	preprocess	noise method
+T2-0263	बीम सर्च	beam search	mixed_lexicon		બીમ સર્ચ	decoding	decoder search
+T2-0264	एन ग्राम भाषा मॉडल	n gram language model	mixed_lexicon		એન ગ્રામ ભાષા મોડેલ	decoding	bias source
+T2-0265	लॉजिट बायस	logit bias	mixed_lexicon		લોજિટ બાયસ	decoding	constrained decoding
+T2-0266	वर्गीकारक	classifier	mixed_lexicon		ક્લાસિફાયર	ml	decision module
+T2-0267	कन्फ्यूज़न मैट्रिक्स	confusion matrix	mixed_lexicon		કન્ફ્યુઝન મેટ્રિક્સ	evaluation	error analysis
+T2-0268	शब्द त्रुटि दर	word error rate	mixed_lexicon		શબ્દ ભૂલ દર	evaluation	stt metric
+T2-0269	मेल सेप्स्ट्रल विकृति	mel cepstral distortion	mixed_lexicon		મેલ કેપ્સ્ટ્રલ ડિસ્ટોર્શન	evaluation	tts metric
+T2-0270	समान त्रुटि दर	equal error rate	mixed_lexicon		સમાન ભૂલ દર	evaluation	spoof metric
+T2-0271	स्पूफ पहचान	spoof detection	mixed_lexicon		નકલી અવાજ ઓળખ	security	task 4
+T2-0272	प्रतिद्वंद्वी विक्षोभ	adversarial perturbation	mixed_lexicon		એડ્વર્સેરિયલ વિક્ષેપ	robustness	attack term
+T2-0273	प्रतिरोधक उपाय	countermeasure	mixed_lexicon		પ્રતિરક્ષા ઉપાય	security	anti spoof system
+T2-0274	व्याख्यान ऑडियो	lecture audio	mixed_lexicon		વ્યાખ્યાન ઑડિયો	data	input source
+T2-0275	संदर्भ आवाज	reference voice	mixed_lexicon		સંદર્ભ અવાજ	data	student recording
+T2-0276	तकनीकी शब्द	technical term	mixed_lexicon		તકનીકી શબ્દ	translation	glossary entry
+T2-0277	स्वरलय	prosody	mixed_lexicon		સ્વરલય	prosody	style transfer
+T2-0278	स्वर चढ़ाव उतार	intonation	mixed_lexicon		સ્વર ચઢાવ ઉતાર	prosody	style transfer
+T2-0279	विराम अवधि	pause duration	mixed_lexicon		વિરામ અવધિ	prosody	timing cue
+T2-0280	एंटी स्पूफिंग वर्गीकारक	anti spoofing classifier	mixed_lexicon		એન્ટી સ્પૂફિંગ ક્લાસિફાયર	security	task 4
+T2-0281	मजबूती	robustness	mixed_lexicon		મજબૂતી	robustness	report section
+T2-0282	सरकार प्रमुख	head of government	mixed_lexicon		સરકાર વડા	governance	from transcript
+T2-0283	जन सेवा	public service	mixed_lexicon		જન સેવા	governance	from transcript
+T2-0284	प्रेरणा	inspiration	mixed_lexicon		પ્રેરણા	abstract	from transcript
+T2-0285	आकांक्षा	aspiration	mixed_lexicon		આકાંક્ષા	abstract	from transcript
+T2-0286	आवश्यकता	need	mixed_lexicon		જરૂરિયાત	abstract	from transcript
+T2-0287	कसौटी	criterion	mixed_lexicon		કસોટી	decision	from transcript
+T2-0288	आत्म मूल्यांकन	self evaluation	mixed_lexicon		આત્મ મૂલ્યાંકન	decision	from transcript
+T2-0289	ऊर्जा	energy	mixed_lexicon		ઊર્જા	abstract	from transcript
+T2-0290	इंजीनियर	engineer	mixed_lexicon		ઇજનેર	identity	from transcript
+T2-0291	गणित	mathematics	mixed_lexicon		ગણિત	academic	from transcript
+T2-0292	गणितज्ञ	mathematician	mixed_lexicon		ગણિતજ્ઞ	academic	from transcript
+T2-0293	विज्ञान	science	mixed_lexicon		વિજ્ઞાન	academic	from transcript
+T2-0294	आध्यात्मिकता	spirituality	mixed_lexicon		આધ્યાત્મિકતા	academic	from transcript
+T2-0295	संबंध	connection	mixed_lexicon		સંબંધ	abstract	from transcript
+T2-0296	वैज्ञानिक मस्तिष्क	scientific mind	mixed_lexicon		વૈજ્ઞાનિક મન	academic	from transcript
+T2-0297	उन्नत सोच	advanced mind	mixed_lexicon		ઉન્નત વિચાર	academic	from transcript
+T2-0298	पूजा	worship	mixed_lexicon		પૂજા	spiritual	from transcript
+T2-0299	तपस्या	tapasya	mixed_lexicon		તપસ્યા	spiritual	from transcript
+T2-0300	कड़ी मेहनत	hard work	mixed_lexicon		કઠિન મહેનત	work	from transcript
+T2-0301	ज्ञान	knowledge	mixed_lexicon		જ્ઞાન	knowledge	from transcript
+T2-0302	स्रोत	source	mixed_lexicon		સ્ત્રોત	knowledge	from transcript
+T2-0303	विचार	idea	mixed_lexicon		વિચાર	knowledge	from transcript
+T2-0304	सूचना	information	mixed_lexicon		માહિતી	knowledge	from transcript
+T2-0305	अंतर	difference	mixed_lexicon		ફરક	knowledge	from transcript
+T2-0306	प्रसंस्करण	processing	mixed_lexicon		પ્રક્રિયા	knowledge	from transcript
+T2-0307	विकसित होना	evolve	mixed_lexicon		વિકસવું	knowledge	from transcript
+T2-0308	राजनेता	politician	mixed_lexicon		રાજકારણી	governance	from transcript
+T2-0309	जिला	district	mixed_lexicon		જિલ્લો	governance	from transcript
+T2-0310	रात्रि मुकाम	night halt	mixed_lexicon		રાત્રિ મુકામ	governance	from transcript
+T2-0311	जमीनी स्तर	grassroot level	mixed_lexicon		ધરાતળ સ્તર	governance	from transcript
+T2-0312	प्रत्यक्ष जानकारी	first hand information	mixed_lexicon		પ્રત્યક્ષ માહિતી	governance	from transcript
+T2-0313	निर्णय	decision	mixed_lexicon		નિર્ણય	decision	from transcript
+T2-0314	तराजू	scale	mixed_lexicon		તારાજુ	decision	from transcript
+T2-0315	देश पहले	country first	mixed_lexicon		દેશ પ્રથમ	decision	from transcript
+T2-0316	गरीब व्यक्ति	poor person	mixed_lexicon		ગરીબ વ્યક્તિ	society	from transcript
+T2-0317	चेहरा	face	mixed_lexicon		ચહેરો	society	from transcript
+T2-0318	मंत्र	mantra	mixed_lexicon		મંત્ર	abstract	from transcript
+T2-0319	सरकार	government	mixed_lexicon		સરકાર	governance	from transcript
+T2-0320	अधिकारी	officer	mixed_lexicon		અધિકારી	governance	from transcript
+T2-0321	ईर्ष्या	jealousy	mixed_lexicon		ઇર્ષ્યા	abstract	from transcript
+T2-0322	तकलीफ	difficulty	mixed_lexicon		તકલીફ	abstract	from transcript
+T2-0323	सूचना चैनल	information channel	mixed_lexicon		માહિતી ચેનલ	governance	from transcript
+T2-0324	संक्षिप्त विवरण	brief	mixed_lexicon		સંક્ષિપ્ત નોંધ	governance	from transcript
+T2-0325	विद्यार्थी भाव	student mindset	mixed_lexicon		વિદ્યાર્થી ભાવ	education	from transcript
+T2-0326	प्रश्न	question	mixed_lexicon		પ્રશ્ન	education	from transcript
+T2-0327	डेविल्स एडवोकेट	devils advocate	mixed_lexicon		ડેવિલ્સ એડ્વોકેટ	argument	from transcript
+T2-0328	उल्टा प्रश्न	cross question	mixed_lexicon		ઉલ્ટો પ્રશ્ન	argument	from transcript
+T2-0329	मंथन	churning	mixed_lexicon		મંથન	analysis	from transcript
+T2-0330	प्रतिक्रिया	reaction	mixed_lexicon		પ્રતિક્રિયા	analysis	from transcript
+T2-0331	गति	speed	mixed_lexicon		ઝડપ	analysis	from transcript
+T2-0332	दृढ़ विश्वास	conviction	mixed_lexicon		દૃઢ વિશ્વાસ	analysis	from transcript
+T2-0333	प्रक्रिया	process	mixed_lexicon		પ્રક્રિયા	analysis	from transcript
+T2-0334	कोरोना	corona	mixed_lexicon		કોરોના	health	from transcript
+T2-0335	अर्थशास्त्री	economist	mixed_lexicon		અર્થશાસ્ત્રી	economy	from transcript
+T2-0336	राजनीतिक दल	political party	mixed_lexicon		રાજકીય પક્ષ	governance	from transcript
+T2-0337	दबाव	pressure	mixed_lexicon		દબાણ	economy	from transcript
+T2-0338	भूख	hunger	mixed_lexicon		ભૂખ	society	from transcript
+T2-0339	सामाजिक तनाव	social tension	mixed_lexicon		સામાજિક તણાવ	society	from transcript
+T2-0340	लॉकडाउन	lockdown	mixed_lexicon		લોકડાઉન	health	from transcript
+T2-0341	विशेषज्ञ राय	expert opinion	mixed_lexicon		નિષ્ણાત મત	analysis	from transcript
+T2-0342	परिस्थिति	circumstance	mixed_lexicon		પરિસ્થિતિ	analysis	from transcript
+T2-0343	मिश्रण	mixture	mixed_lexicon		મિશ્રણ	analysis	from transcript
+T2-0344	व्यवस्था	arrangement	mixed_lexicon		વ્યવસ્થા	analysis	from transcript
+T2-0345	मुद्रास्फीति	inflation	mixed_lexicon		મૂલ્યવૃદ્ધિ	economy	from transcript
+T2-0346	कोविड	covid	mixed_lexicon		કોવિડ	health	from transcript
+T2-0347	प्रगति	growth	mixed_lexicon		પ્રગતિ	economy	from transcript
+T2-0348	संकट	crisis	mixed_lexicon		સંકટ	economy	from transcript
+T2-0349	सिद्धांत	theory	mixed_lexicon		સિદ્ધાંત	analysis	from transcript
+T2-0350	मूलभूत आधार	fundamental	mixed_lexicon		મૂળભૂત આધાર	analysis	from transcript
+T2-0351	फोकस	focus	mixed_lexicon		ફોકસ	analysis	from transcript
+T2-0352	जोखिम लेने की क्षमता	risk taking	mixed_lexicon		જોખમ લેવાની ક્ષમતા	leadership	from transcript
+T2-0353	स्वामित्व	ownership	mixed_lexicon		માલિકી	leadership	from transcript
+T2-0354	गलती	mistake	mixed_lexicon		ભૂલ	leadership	from transcript
+T2-0355	जिम्मेदारी	responsibility	mixed_lexicon		જવાબદારી	leadership	from transcript
+T2-0356	टीम	team	mixed_lexicon		ટીમ	leadership	from transcript
+T2-0357	ईमानदारी	honesty	mixed_lexicon		ઇમાનદારી	leadership	from transcript
+T2-0358	समर्पण	dedication	mixed_lexicon		સમર્પણ	leadership	from transcript
+T2-0359	भरोसा	trust	mixed_lexicon		વિશ્વાસ	leadership	from transcript
+T2-0360	अंतरराष्ट्रीय ध्वन्यात्मक लिपि	ipa	mixed_lexicon		આંતરરાષ્ટ્રીય ધ્વન્યાત્મક લિપિ	speech	task 2.1
+T2-0361	एकीकृत निरूपण	unified representation	mixed_lexicon		એકિકૃત નિરૂપણા	speech	task 2.1
+T2-0362	ध्वनिविज्ञान	phonology	mixed_lexicon		ધ્વનિવિજ્ઞાન	speech	task 2.1
+T2-0363	कोड स्विच्ड प्रतिलेख	code switched transcript	mixed_lexicon		કોડ સ્વિચ્ડ ટ્રાન્સક્રિપ્ટ	speech	task 2.1
+T2-0364	मैनुअल मैपिंग लेयर	manual mapping layer	mixed_lexicon		મેન્યુઅલ મેપિંગ લેયર	speech	task 2.1
+T2-0365	सार्थक अनुवाद	semantic translation	mixed_lexicon		અર્થસભર અનુવાદ	translation	task 2.2
+T2-0366	समानांतर कॉर्पस	parallel corpus	mixed_lexicon		સમાનાંતર કોર્પસ	translation	task 2.2
+T2-0367	लक्षित भाषा	target language	mixed_lexicon		લક્ષ્ય ભાષા	translation	task 2.2

@@ -1,0 +1,81 @@
+{
+  "task": "Task 4 - Robustness and Spoof Detection",
+  "entrypoint": "python tasks/task4_spoof_robustness/main.py",
+  "results_dir": "outputs\\task4",
+  "input_spoof_audio": "outputs\\task3\\output_LRL_cloned_clean.wav",
+  "core_code_files": [
+    "src/assignment2/modules/spoof.py",
+    "src/assignment2/modules/adversarial.py",
+    "src/assignment2/modules/reporting.py"
+  ],
+  "outputs": {
+    "spoof_manifest": "outputs\\task4\\spoof_segment_eval.csv",
+    "anti_spoof_checkpoint": "outputs\\task4\\anti_spoof_lfcc.pt",
+    "roc_plot": "outputs\\task4\\anti_spoof_roc.png",
+    "confusion_matrix_plot": "outputs\\task4\\anti_spoof_confusion_matrix.png",
+    "fgsm_attack_curve_plot": "outputs\\task4\\fgsm_attack_curve.png",
+    "fgsm_attack_audio": "outputs\\task4\\lid_fgsm_attack.wav",
+    "metrics": "outputs\\task4\\task4_metrics.json"
+  },
+  "metrics": {
+    "spoof": {
+      "train_chunks": 72,
+      "test_chunks": 18,
+      "balanced_bonafide_chunks": 45,
+      "balanced_spoof_chunks_used": 45,
+      "accuracy": 1.0,
+      "eer": 0.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          10,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    "adversarial": {
+      "available": false,
+      "minimum_epsilon": null,
+      "snr_threshold_db": 40.0,
+      "segment_start_sec": 0.0,
+      "segment_end_sec": 5.0,
+      "baseline_source_ratio": 1.0,
+      "epsilon_trials": [
+        {
+          "epsilon": 0.0005,
+          "snr_db": 50.93505859375,
+          "target_frame_ratio": 0.0,
+          "success": false
+        },
+        {
+          "epsilon": 0.001,
+          "snr_db": 45.44851303100586,
+          "target_frame_ratio": 0.0,
+          "success": false
+        },
+        {
+          "epsilon": 0.002,
+          "snr_db": 39.4499626159668,
+          "target_frame_ratio": 0.0,
+          "success": false
+        },
+        {
+          "epsilon": 0.004,
+          "snr_db": 33.26430892944336,
+          "target_frame_ratio": 0.0,
+          "success": false
+        },
+        {
+          "epsilon": 0.008,
+          "snr_db": 27.070499420166016,
+          "target_frame_ratio": 0.0,
+          "success": false
+        }
+      ]
+    }
+  }
+}

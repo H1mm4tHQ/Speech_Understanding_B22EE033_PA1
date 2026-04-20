@@ -1,0 +1,19 @@
+{
+  "train_chunks": 72,
+  "test_chunks": 18,
+  "balanced_bonafide_chunks": 45,
+  "balanced_spoof_chunks_used": 45,
+  "accuracy": 1.0,
+  "eer": 0.0,
+  "roc_auc": 1.0,
+  "confusion_matrix": [
+    [
+      10,
+      0
+    ],
+    [
+      0,
+      8
+    ]
+  ]
+}
